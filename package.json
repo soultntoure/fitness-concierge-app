@@ -1,0 +1,23 @@
+{
+  "name": "fitness-concierge-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A comprehensive fitness class booking app addressing hyper-personalization and community.",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "bootstrap": "yarn install",
+    "build": "yarn workspaces foreach run build",
+    "start": "yarn workspaces foreach run start"
+  },
+  "keywords": [
+    "fitness",
+    "booking",
+    "personalization",
+    "community",
+    "niche-fitness"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
